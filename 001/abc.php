@@ -3,7 +3,6 @@
  * Created by PhpStorm.
  * User: duc
  * Date: 09/05/2019
- * Time: 6:29 CH
+ * Time: 6:52 CH
  */
-echo 'xin chào php <br>';
-echo 'xin chào';
+echo 'chào bạn';
