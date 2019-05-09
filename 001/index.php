@@ -6,3 +6,4 @@
  * Time: 6:29 CH
  */
 echo 'xin chào php';
+echo 'xin chào';
