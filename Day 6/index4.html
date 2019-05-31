@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    các từ khóa AND, OR, NOT trong mệnh đề WHERE
+    - AND (phải đáp ứng tất cả các điều kiện)
+    lấy ra tất cả các khách hàng đến từ thành phố Miami và có tên là Peter
+    SELECT * FROM customers WHERE city='Miami' AND first_name="Peter";
+    - OR (chỉ cần đáp ứng một trong các điều kiện)
+    lấy ra tất cả các khách hàng thỏa mãn 1 trong 2 điều kiện(đến từ Miami và có tên Anna)
+    SELECT * FROM customers WHERE city='Miami' OR first_name="Anna";
+    - NOT (phủ định lại)
+    lấy ra tất cả các khách hàng không đến từ Miami
+    SELECT * FROM customers WHERE NOT city='Miami';
+</pre>
+</body>
+</html>
