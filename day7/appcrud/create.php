@@ -26,17 +26,13 @@ if(isset($_POST['name'])&& isset($_POST['address'])&& isset($_POST['salary'])) {
             // hàm header dùng để chuyển hướng url
             header('Location: index.php');
             exit;
+
         } else {
             echo "Insert thất bại";
         }
     }
 }
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
 ?>
-
-
 <div class="container">
     <div class="row">
         <div class="col-md-12">

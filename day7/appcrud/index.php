@@ -71,7 +71,7 @@ mysqli_result Object
                         <div>
                             <a class="btn btn-warning" href="edit.php?id=<?php echo $row['id'] ?>">Sửa nhân viên</a>
                         </div>
-                        <div>
+                        <div style="margin-top: 10px;">
                             <a class="btn btn-danger"  href="delete.php?id=<?php echo $row['id'] ?>">Xóa nhân viên</a>
                         </div>
                     </td>
