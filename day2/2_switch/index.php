@@ -25,7 +25,7 @@
             echo "mua hè";
             break;
         case 6:
-            echo "mua hè";
+            echo "mua hè tháng 6";
             break;
         case 7:
             echo "mua thu";

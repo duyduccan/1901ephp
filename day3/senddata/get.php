@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-if(isset($_GET)&& !empty($_GET)){
+if(isset($_GET) && !empty($_GET)){
     echo "<pre>";
     print_r($_GET);
     echo "</pre>";

@@ -6,6 +6,8 @@
 </head>
 <body>
 <?php
+// isset kiểm tra xem biến có giá trị là true
+// empty kiểm tra xem biến có giá trị rỗng là true
 if(isset($_POST) && !empty($_POST)){
     echo "<pre>";
     print_r($_POST);

@@ -18,8 +18,12 @@
     nhưng hằng thì k cần
 </pre>
 <?php
-define("NAME","Can duy duc");
+define("NAME","can duy duc");
 echo NAME;
+define("LOCATION","ha noi");
+echo "<br>";
+echo LOCATION;
+
 ?>
 </body>
 </html>

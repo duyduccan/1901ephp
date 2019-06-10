@@ -16,7 +16,7 @@ print_r($students);
 echo "</pre>";
 echo "<br>Dạng foreach đầy đủ";
 //dạng foreach đầy đủ
-// empty là rỗng
+// empty là rỗng true
 if(is_array($students) && !empty($students)){
     foreach($students as $key => $value){
         echo "<br> Key: " . $key . " Value: " . $value;
