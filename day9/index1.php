@@ -51,7 +51,7 @@ showMessage(function(){
 // 2 biến global (toàn cục)
 $city = "ha noi";
 $country = "viet nam";
-$go = function($vehicle) use($city,$country){
+$go = function($vehicle) use ($city,$country){
     echo "<br> Go travel city " .$city. " country " .$country . " by " .$vehicle;
 };
 $go("motor");
